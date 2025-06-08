@@ -92,20 +92,30 @@ Use clustering algorithms to group products based on their **physical dimensions
 ## 📂 Repository Structure
 
 ```bash
-.
-├── data/
-│   └── product_data.csv
-├── notebooks/
-│   └── clustering_analysis.ipynb
-├── src/
-│   ├── preprocessing.py
-│   ├── clustering.py
-│   └── visualization.py
-├── app/
-│   └── streamlit_app.py
-├── requirements.txt
+warehouse-space-optimizer/
+├── Data/
+│   ├── Source Data.csv
+│   ├── Cleaned Data.csv
+│   ├── Preprocessed Data.csv
+│   └── Final Data.csv
+│
+├── Notebook/
+│   ├── 1. Data Cleaning.ipynb
+│   ├── 2. Data Preprocessing.ipynb
+│   ├── 3. EDA.ipynb
+│   ├── 4. Clustering.ipynb
+│   └── app.py # Streamlit application
+│
+├── Pickle/
+│   ├── Scaler.pkl
+│   ├── kmeans_model.pkl
+│   ├── pca.pkl
+│   ├── processed_product_analysis_df.pkl
+│   └── product_visualizer.pkl
+│                 
 ├── README.md
-└── LICENSE
+└── requirements.txt
+
 ```
 
 ---
