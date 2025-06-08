@@ -92,7 +92,7 @@ Use clustering algorithms to group products based on their **physical dimensions
 ## 📂 Repository Structure
 
 ```bash
-warehouse-space-optimizer/
+Warehouse-Space-Optimization-using-Smart-Clustering/
 ├── Data/
 │   ├── Source Data.csv
 │   ├── Cleaned Data.csv
