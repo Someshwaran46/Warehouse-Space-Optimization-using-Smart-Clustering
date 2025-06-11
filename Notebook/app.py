@@ -32,9 +32,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-image_url = "https://i.postimg.cc/WbKdjsZK/Untitled-design-2.png"
-set_bg(image_url)
+set_bg("https://i.postimg.cc/WbKdjsZK/Untitled-design-2.png")
     
 # --- ProductVisualizer Class ---
 class ProductVisualizer:
